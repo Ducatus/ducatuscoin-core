@@ -7,10 +7,6 @@ Ducatuscoin is a scrypt based crypto currency.
 ducatuscoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/ducatuscoin-project/ducatuscoin.svg?branch=master)](https://travis-ci.org/ducatuscoin-project/ducatuscoin)
-
-https://ducatuscoin.org
-
 What is ducatuscoin?
 ----------------
 
