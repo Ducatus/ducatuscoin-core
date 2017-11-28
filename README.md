@@ -4,29 +4,6 @@
 
 Ducatuscoin is a scrypt based crypto currency.
 
-## Dependencies
-
-This project leverages Docker in order to keep dependencies manageable and deployment easy.
-
-- docker
-- docker-compose
-
-## Build
-
-To create the docker image for ducatuscoin:
-
-```
-./build.sh
-```
-
-## Deploying
-
-To run a seed node along with a second node that mines blocks:
-
-```
-docker-compose up -d
-```
-
 ducatuscoin Core integration/staging tree
 =====================================
 
