@@ -1,52 +1,44 @@
-# Ducatuscoin
+# DucatusCoin
 
 ## Overview
 
-Ducatuscoin is a scrypt based crypto currency.
+DucatusCoin is a scrypt-based cryptocurrency.
 
-ducatuscoin Core integration/staging tree
+DucatusCoin Core integration/staging tree
 =====================================
 
-What is ducatuscoin?
+What is DucatusCoin?
 ----------------
 
-ducatuscoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. ducatuscoin uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. ducatuscoin Core is the name of open source
+DucatusCoin is a digital currency that enables instant payments to anyone,
+anywhere in the world. DucatusCoin uses peer-to-peer technology to operate with
+no central authority: managing transactions and issuing money are carried out
+collectively by the network. DucatusCoin Core is the name of open source
 software which enables the use of this currency.
 
-For more information, as well as an immediately useable, binary version of
-the ducatuscoin Core software, see [https://ducatuscoin.org](https://ducatuscoin.org).
+For more information, see [https://network.ducatus.net/](https://network.ducatus.net/).
 
 License
 -------
 
-ducatuscoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+DucatusCoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/ducatuscoin-project/ducatuscoin/tags) are created
-regularly to indicate new official, stable release versions of ducatuscoin Core.
+completely stable. [Tags](https://github.com/Ducatus/ducatuscoin-core/tags) are created
+regularly to indicate new official, stable release versions of DucatusCoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-The developer [mailing list](https://groups.google.com/forum/#!forum/ducatuscoin-dev)
-should be used to discuss complicated or controversial changes before working
-on a patch set.
-
-Developer IRC can be found on Freenode at #ducatuscoin-dev.
 
 Testing
 -------
 
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
+This is a security-critical project where any mistake may be costly. As such,
+we have a rigorous project to test pull requests and may be slow to incorporate
+requests and changes.
 
 ### Automated Testing
 
@@ -62,16 +54,15 @@ The Travis CI system makes sure that every pull request is built for Windows, Li
 
 ### Manual Quality Assurance (QA) Testing
 
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
+ALl changes will be tested by Ducatus staff prior to being incorporated into
+`master`. It is useful to add a test plan to the pull request description if
+testing the changes will not be straightforward.
 
 Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to ducatuscoin periodically.
+Translations are migrated to DucatusCoin periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
