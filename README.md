@@ -69,3 +69,9 @@ Translations are periodically pulled from Transifex and merged into the git repo
 
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
+
+Caveats
+-------
+
+Note that there are known issues with the current Qt port. This tool is intended to be
+used from the command line only at this time.
