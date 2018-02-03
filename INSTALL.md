@@ -37,7 +37,7 @@ sudo apt-get install --yes make pkg-config bsdmainutils libminiupnpc-dev libzmq3
 
 # Download Ducatuscore and build the node software
 ```bash
-git clone git@github.com:Ducatus/ducatuscoin-core.git
+git clone https://github.com/Ducatus/ducatuscoin-core
 cd ducatuscoin-core
 aclocal
 ./autogen.sh
