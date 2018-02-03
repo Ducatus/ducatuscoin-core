@@ -1,10 +1,10 @@
-Contributing to Litecoin Core
-============================
+Contributing to Ducatuscoin Core
+================================
 
-The Litecoin Core project operates an open contributor model where anyone is welcome to contribute towards development in the form of peer review, testing and patches. This document explains the practical process and guidelines for contributing.
+The Ducatuscoin Core project operates an open contributor model where anyone is welcome to contribute towards development in the form of peer review, testing and patches. This document explains the practical process and guidelines for contributing.
 
-Firstly in terms of structure, there is no particular concept of “Core developers” in the sense of privileged people. Open source often naturally revolves around meritocracy where longer term contributors gain more trust from the developer community. However, some hierarchy is necessary for practical purposes. As such there are repository “maintainers” who are responsible for merging pull requests as well as a “lead maintainer” who is responsible for the release cycle, overall merging, moderation and appointment of maintainers.
-
+This repository is maintained by Ducatus staff. We are happy to evaluate and accept
+contributions from our community members.
 
 Contributor Workflow
 --------------------
@@ -39,7 +39,7 @@ The title of the pull request should be prefixed by the component or area that t
 
 If a pull request is specifically not to be considered for merging (yet) please prefix the title with [WIP] or use [Tasks Lists](https://help.github.com/articles/basic-writing-and-formatting-syntax/#task-lists) in the body of the pull request to indicate tasks are pending.
 
-The body of the pull request should contain enough description about what the patch does together with any justification/reasoning. You should include references to any discussions (for example other tickets or mailing list discussions).
+The body of the pull request should contain enough description about what the patch does together with any justification/reasoning. You should include references to any discussions.
 
 At this stage one should expect comments and review from other contributors. You can add more commits to your pull request by committing them locally and pushing to your fork until you have satisfied all feedback.
 
@@ -81,9 +81,7 @@ Project maintainers aim for a quick turnaround on refactoring pull requests, so 
 "Decision Making" Process
 -------------------------
 
-The following applies to code changes to the Litecoin Core project (and related projects such as libsecp256k1), and is not to be confused with overall Litecoin Network Protocol consensus changes.
-
-Whether a pull request is merged into Litecoin Core rests with the project merge maintainers and ultimately the project lead.
+Whether a pull request is merged into Ducatuscoin Core rests with the project merge maintainers and ultimately the project lead.
 
 Maintainers will take into consideration if a patch is in line with the general principles of the project; meets the minimum standards for inclusion; and will judge the general consensus of contributors.
 
@@ -96,12 +94,10 @@ In general, all pull requests must:
   - not break the existing test suite;
   - where bugs are fixed, where possible, there should be unit tests demonstrating the bug and also proving the fix. This helps prevent regression.
 
-Patches that change Litecoin consensus rules are considerably more involved than normal because they affect the entire ecosystem and so must be preceded by extensive mailing list discussions and have a numbered BIP. While each case will be different, one should be prepared to expend more time and effort than for other kinds of patches because of increased peer review and consensus building requirements.
-
 
 ###Peer Review
 
-Anyone may participate in peer review which is expressed by comments in the pull request. Typically reviewers will review the code for obvious errors, as well as test out the patch set and opine on the technical merits of the patch. Project maintainers take into account the peer review when determining if there is consensus to merge a pull request (remember that discussions may have been spread out over github, mailing list and IRC discussions). The following language is used within pull-request comments:
+Anyone may participate in peer review which is expressed by comments in the pull request. Typically reviewers will review the code for obvious errors, as well as test out the patch set and opine on the technical merits of the patch. Project maintainers take into account the peer review when determining if there is consensus to merge a pull request. The following language is used within pull-request comments:
 
   - ACK means "I have tested the code and I agree it should be merged";
   - NACK means "I disagree this should be merged", and must be accompanied by sound technical justification. NACKs without accompanying reasoning may be disregarded;
@@ -115,10 +111,4 @@ Project maintainers reserve the right to weigh the opinions of peer reviewers us
 
 Where a patch set affects consensus critical code, the bar will be set much higher in terms of discussion and peer review requirements, keeping in mind that mistakes could be very costly to the wider community. This includes refactoring of consensus critical code.
 
-Where a patch set proposes to change the Litecoin consensus, it must have been discussed extensively on the mailing list and IRC, be accompanied by a widely discussed BIP and have a generally widely perceived technical consensus of being a worthwhile change based on the judgement of the maintainers.
-
-
-Release Policy
---------------
-
-The project leader is the release manager for each Litecoin Core release.
+Patch sets that propose a change to Ducatuscoin consensus will generally be rejected unless they are initiated internally.
