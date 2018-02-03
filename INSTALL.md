@@ -56,3 +56,26 @@ The simplest way to start from scratch with the command line client, which will 
  ducatuscoind
 ```
 
+# Interacting with the node 
+
+Once the node is running, you may interact with it using the `ducatuscoin-cli` command.
+
+Look at the status of your node synchronization:
+```bash
+ducatuscoin-cli getblockchaininfo
+```
+
+Create an account and receiving address:
+```bash
+ducatuscoin-cli getnewaddress <int>
+```
+
+Mine Duactuscoin (generate hashes):
+```bash
+ducatuscoin-cli setgenerate true
+```
+
+For more information:
+```bash
+ducatuscoin-cli help
+```
