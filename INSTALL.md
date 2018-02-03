@@ -35,8 +35,10 @@ make install
 apt-get install --yes make pkg-config bsdmainutils libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 ```
 
-# Build the node software
+# Download Ducatuscore and build the node software
 ```bash
+git clone git@github.com:Ducatus/ducatuscoin-core.git
+cd ducatuscoin-core
 aclocal
 ./autogen.sh
 autoreconf -i
