@@ -11,12 +11,12 @@ this recommended order; including bitcoind in the first batch may prevent all ne
 libraries from being installed.
 
 ```bash
-apt-get update
-apt-get install -y ntp git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev libevent-dev autoconf libtool libboost-all-dev wget software-properties-common python-software-properties
+sudo apt-get update
+sudo apt-get install -y ntp git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev libevent-dev autoconf libtool libboost-all-dev wget software-properties-common python-software-properties
 
-add-apt-repository -y ppa:bitcoin/bitcoin
-apt-get update -y
-apt-get install -y bitcoind git libdb4.8-dev libdb4.8++-dev
+sudo add-apt-repository -y ppa:bitcoin/bitcoin
+sudo apt-get update -y
+sudo apt-get install -y bitcoind git libdb4.8-dev libdb4.8++-dev
 
 ```
 
@@ -27,12 +27,12 @@ git clone https://github.com/jgarzik/univalue
 cd univalue
 ./autogen.sh
 ./configure
-make install
+sudo make install
 ```
 
 # Install Additional Libraries
 ```bash
-apt-get install --yes make pkg-config bsdmainutils libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+sudo apt-get install --yes make pkg-config bsdmainutils libminiupnpc-dev libzmq3-dev libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 ```
 
 # Download Ducatuscore and build the node software
