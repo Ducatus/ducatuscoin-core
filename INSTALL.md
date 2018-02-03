@@ -70,7 +70,7 @@ Create an account and receiving address:
 ducatuscoin-cli getnewaddress <int>
 ```
 
-Mine Duactuscoin (generate hashes):
+Mine Duactuscoin (generate hashes). Note that the recommended approach to mine Ducatuscoin is to use a standard miner such as cgminer, cudaminer, or cpuminer with the [Ducatus member pool](http://network.ducatus.net/beta/mining-pool/):
 ```bash
 ducatuscoin-cli generate <int>
 ```
