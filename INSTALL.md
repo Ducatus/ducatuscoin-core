@@ -72,7 +72,7 @@ ducatuscoin-cli getnewaddress <int>
 
 Mine Duactuscoin (generate hashes):
 ```bash
-ducatuscoin-cli setgenerate true
+ducatuscoin-cli generate <int>
 ```
 
 For more information:
